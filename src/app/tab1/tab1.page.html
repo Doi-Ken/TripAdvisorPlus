@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-icon name="sunny" style="padding:0px 10px 0px 10px; vertical-align:text-top;"></ion-icon>天気・お役立ち情報
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="normal-card">
+    <ion-img src="https://i0.wp.com/sozaikoujou.com/wordpress/wp-content/uploads/2015/04/th_weather_ca_013.png?w=660&ssl=1"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>30/8/2019 Fri.</ion-card-subtitle>
+      <ion-card-title>You need an umbrella!!</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-grid>
+        <ion-row class="ion-justify-content-center ion-text-center">
+          <ion-col>
+            <div>
+              0-6
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              6-12
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              12-18
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              18-24
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <ion-row class="ion-justify-content-center ion-text-center">
+          <ion-col>
+            <div>
+              20％
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              50％
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              60％
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+              90％
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-label>Tips</ion-label>
+      <ion-button fill="outline" slot="end">Route</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-icon name="warning"></ion-icon> Stay away from a river in a flood.
+    </ion-card-content>
+  </ion-card>
+  <ion-button (click)="onClick()" expand="block">Weather Information</ion-button>
+</ion-content>

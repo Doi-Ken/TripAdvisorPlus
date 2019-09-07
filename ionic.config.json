@@ -1,0 +1,7 @@
+{
+  "name": "asiaOpneData",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
